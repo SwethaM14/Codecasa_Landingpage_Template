@@ -1,0 +1,88 @@
+body{
+    background-image: linear-gradient(to left top , rgb(252, 25, 120), rgb(238, 140, 200));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.emojie{
+    background-image: url(butter1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 91vh;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    box-shadow: 5px 10px 20px black;
+    margin-left: 4.5em;
+    width: 90%;
+    border-radius: 10px;
+}
+nav,ul,a{
+    text-decoration: none;
+    list-style: none;
+}
+li,a{
+    display: inline-block;
+}
+li,ul,a{
+    text-align: right;
+    padding: 8px;
+    margin-top: 0px;
+    font-size: 26px;
+    font-family: sans-serif ;
+    font-weight: lighter;
+    color: rgb(17, 15, 15);
+    
+}
+a:hover{
+    background-color: rgb(255, 58, 124);
+    color:rgb(255, 250, 250);
+    opacity: .5 white;   
+    transform: scale(1.1);
+}
+span{
+    font-size:30px;
+    padding-top: 1px;
+    padding-left: 1rem;
+    color: rgb(0, 0, 0);
+    font-weight: bold;    
+}
+span:hover{
+    cursor: pointer;
+    color: rgb(255,58,124);
+}
+.demo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 3em;
+    
+    
+}
+p{
+    border: 4px  solid rgb(245, 35, 140);
+    background-color: rgb(223, 18, 103);
+    font-size: 30px;
+    display: inline-block;
+    padding: 8px;
+    cursor: pointer;
+
+}
+p:hover{
+background-color: azure;   
+color: rgb(219, 41, 100);
+
+}
+h1{
+    font-size: 90px;
+    color: aliceblue;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.down{
+    font-size: 25px;
+    text-align: right;
+    padding: 3rem;
+   
+}
+i{
+    color: black;
+    cursor: pointer;
+}
